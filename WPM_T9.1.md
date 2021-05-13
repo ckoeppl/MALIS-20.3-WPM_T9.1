@@ -17,9 +17,19 @@ Die Arbeit an der GND besteht aus vielen unterschiedlichen Facetten. Es wird in 
 1. Erschließung von Medien
 
 2. Regelwerksänderungen
+Sämtliche Einträge in die GND werden nach dem gemeinsamen Regelwerk RDA angelegt. Hin und wieder kommt es dazu, dass Teile des Regelwerks überarbeitet werden und Katalogisierer*innen und GND-Redakteur*innen die entsprechenden Felder nach einer neuen Regel befüllen müssen.
+Ab dem Geltungszeitpunkt des neuen oder aktualisierten Regelwerks werden alle neuen Katalogisate oder Normdatensätze nach den neuen Regeln angelegt, während die vorherigen Daten in der Regel bestehen bleiben. Stößt ein*e Katalogisierer*in oder ein*e Redakteur*in bei seiner Arbeit auf einen nach altem Regelwerk angelegten Datensatz, so passt er diesen händisch an das neue Regelwerk an.
+Eine Regelwerksänderung hat darum immer eine heterogene, nicht ganz konsistente Datenlage bzw. Erfassungslage zur Folge, die nur nach und nach als work in progress bereinigt wird.
+
+Es wäre denkbar, die Aktualisierung der Datensätze auf das neue Regelwerk teilweise  maschinell zu unterstützen. Dazu müsste zunächst die Art der Änderung des Regelwerks ausgewertet werden, indem die neue und die alte Version des Regelwerks miteinander verglichen werden.
+Es müsste weiterhin festgestellt werden, welche Metadatenfelder von der Änderung betroffen sind und in welchem Format diese befüllt sind, um dann entsprechend des neuen Regelwerks ein Zielformat festzulegen. 
 
 3. Erschließung und Verknüpfung von Normdaten
+Die in Titeldaten genannten Personen wie beispielsweise Autoren oder Herausgeber sind häufig nicht mit Personennormdaten der GND, sogenannte Tp-Sätze, verknüpft. Wie im Fall der Regelwerksänderung ist man auch hier darauf angewiesen, dass ein*e Katalogisierer*in den Datensatz im Rahmen anderer Arbeiten aufruft, die fehlende Verknüpfung erkennt und behebt.
 
+Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) können fehlende Verknüpfungen auch maschinell behoben werden und die intellektuelle Arbeit entlasten. Dazu wird derzeit an der DNB an einem Vorschlagsystem gearbeitet, das Normdatenverknüpfungen für Strings in vorab definierten Feldern (z.B. Personen-Felder) vornimmt bzw. vorschlägt.
+Dabei werden maschinell Vorschläge für Verknüpfungen von Personen in Titeldaten mit bestehenden Tp-Sätzen, aber auch für neu zu erzeugende Tp-Datensätze generiert. Im letzteren Fall werden derzeit sogenannte Vorschlagsdatensätze (TX-Sätze) erzeugt, die nach intellektueller Prüfung zu Tp-Sätzen werden.
+Grundlage für die Erzeugung von Vorschlagdatensätzen ist das Vorhandensein einer Standardnummer wie etwa eine ORCID-ID, aber auch die Auswertung von Culturegraph-Werkbündeln oder der Open Access-Enginge BASE.    
 
 
 ## Prozesse im Zusammenhang mit Datenimports
