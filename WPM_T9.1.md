@@ -21,9 +21,8 @@ Noch immer können diese Verfahren die intellektuelle Arbeit nur unterstützen, 
 Sämtliche Einträge in die GND werden nach dem gemeinsamen Regelwerk RDA angelegt. Hin und wieder kommt es dazu, dass Teile des Regelwerks überarbeitet werden und Katalogisierer*innen und GND-Redakteur*innen die entsprechenden Felder nach einer neuen Regel befüllen müssen.
 Ab dem Geltungszeitpunkt des neuen oder aktualisierten Regelwerks werden alle neuen Katalogisate oder Normdatensätze nach den neuen Regeln angelegt, während die vorherigen Daten in der Regel bestehen bleiben. Stößt ein*e Katalogisierer*in oder ein*e Redakteur*in bei seiner Arbeit auf einen nach altem Regelwerk angelegten Datensatz, so passt er diesen händisch an das neue Regelwerk an.
 Eine Regelwerksänderung hat darum immer eine heterogene, nicht ganz konsistente Datenlage bzw. Erfassungslage zur Folge, die nur nach und nach als work in progress bereinigt wird.
-
-Es wäre denkbar, die Aktualisierung der Datensätze auf das neue Regelwerk teilweise  maschinell zu unterstützen. Dazu müsste zunächst die Art der Änderung des Regelwerks ausgewertet werden, indem die neue und die alte Version des Regelwerks miteinander verglichen werden.
-Es müsste weiterhin festgestellt werden, welche Metadatenfelder von der Änderung betroffen sind und in welchem Format diese befüllt sind, um dann entsprechend des neuen Regelwerks ein Zielformat festzulegen. 
+Es wäre denkbar, die Aktualisierung der Datensätze auf das neue Regelwerk teilweise  maschinell zu unterstützen. Dazu müsste zunächst die Art der Änderung des Regelwerks ausgewertet werden, indem die neue und die alte Version des Regelwerks miteinander verglichen werden. Es müsste weiterhin festgestellt werden, welche Metadatenfelder von der Änderung betroffen sind und in welchem Format diese befüllt sind, um dann entsprechend des neuen Regelwerks ein Zielformat festzulegen.
+In diesem Zuge könnte man auch darüber nachdenken, ein solches Verfahren mit einer maschinell unterstützen "Prüfung" der Regelkonformität bestimmter Felder zu verbinden. Denn auch hier wäre ein Schema, ein Format oder eine Syntax festzulegen, nach denen die Felder jeweils mit kontrollierten Werten oder Literalen zu besetzen sind.
 
 3. Erschließung und Verknüpfung von Normdaten
 Die in Titeldaten genannten Personen wie beispielsweise Autoren oder Herausgeber sind häufig nicht mit Personennormdaten der GND, sogenannten Tp-Sätzen, verknüpft. Wie im Fall der Regelwerksänderung ist man auch hier darauf angewiesen, dass ein*e Katalogisierer*in den Datensatz im Rahmen anderer Arbeiten aufruft, die fehlende Verknüpfung erkennt und behebt.
@@ -36,15 +35,13 @@ Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) k
 
 ## Prozesse im Zusammenhang mit der Qualitätssicherung / Sicherung der Metadatenqualität
 
-5. Regelkonformität sicherstellen
-
-6. Dubletten bereinigen 
-Mit der Bereinigung von Dubletten verhält es sich ähnlich wie mit der Erschließung von Medien, dem Anlegen und Verknüpfen von Normdaten. Dubletten werden in der Regel dann händisch bearbeitet, wenn sie in der Erschließungsarbeit als Dubletten auffallen (work in progress). In der GND können Dubletten insbesondere dann gehäuft entstehen, wenn ein größeres Datenset von extern eingespielt wurde. Aus diesem Grund wird derzeit die sogenannte "GND-Toolbox" entwickelt. Diese soll die Anbindung neuer Datenquellen aus nicht-bibliothearischen Anwendungskontexten durch Bereitstellung von Schnittstellen unterstützen. Darüber hinaus soll die GND-Toolbox aber auch als Werkzeug zur Qualitätskontrolle der GND zur Verfügung stehen. Sowohl beim Pre-Processing von externen Datenbeständen als auch bei der Qualitätskontrolle kommen Match & Merge-Verfahren zum Einsatz. Im ersten Fall wird das externe Datenset gegen den Bestand der GND abgeglichen, um "Import-Kandidaten" zu identifizieren oder aber auszuschließen. Im zweiten Fall wird die GND gewissermaßen "gegen sich selbst gematched", um mögliche Dubletten zu identifizieren.
+5. Dubletten bereinigen 
+Mit der Bereinigung von Dubletten verhält es sich ähnlich wie mit der Erschließung von Medien, dem Anlegen und Verknüpfen von Normdaten. Dubletten werden in der Regel dann händisch bearbeitet, wenn sie in der Erschließungsarbeit als Dubletten auffallen (work in progress). In der GND können Dubletten insbesondere dann gehäuft entstehen, wenn ein größeres Datenset von extern eingespielt wurde. Aus diesem Grund wird derzeit die sogenannte "GND-Toolbox" entwickelt. Diese soll die Anbindung neuer Datenquellen aus nicht-bibliothearischen Anwendungskontexten durch Bereitstellung von Schnittstellen unterstützen. Darüber hinaus soll die GND-Toolbox aber auch als Werkzeug zur Qualitätskontrolle der GND zur Verfügung stehen. Sowohl beim Pre-Processing von externen Datenbeständen als auch bei der Qualitätskontrolle kommen Match & Merge-Verfahren zum Einsatz. Im ersten Fall wird das externe Datenset gegen den Bestand der GND abgeglichen, um "Import-Kandidaten" zu identifizieren oder aber auszuschließen (siehe auch Prozess Nr. 4). Im zweiten Fall wird die GND gewissermaßen "gegen sich selbst gematched", um mögliche Dubletten zu identifizieren.
 Ein regelmäßiges, automatisches Matching und Merging soll die Qualität und Konsistenz der GND-Datensätze künftig erhöhen und insofern auch die GND-Redakteur+innen entlasten, als die maschinell erkannten Dubletten unmittelbar als solche zur händischen Bearbeitung vorgeschlagen werden.
 
 ## Prozesse im Zusammenhang mit Anfragen an die GND (Anfragemanagement)
 
-7. Anfragemanagement in der GND-Zentrale als Anlaufstelle für externe Partner+innen
+6. Anfragemanagement in der GND-Zentrale als Anlaufstelle für externe Partner+innen
 
 
 
