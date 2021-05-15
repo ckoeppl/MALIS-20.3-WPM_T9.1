@@ -4,8 +4,7 @@ Autorin: Chantal F. Köppl
 
 # Datenintensive bzw. datenfokussierte Prozesse und Möglichkeiten der Prozessoptimierung in der Gemeinsamen Normdatei (GND) - eine Auswahl
 
-Die Gemeinsame Normdatei (GND) ist ein von den Bibliotheken im D-A-CH-Raum kooperativ gepflegtes Normdatenhub. In ihr wurden 2012 vier vorher bestehende, einzelne Normdateien zusammengeführt.
-Die vorliegende Arbeit zeigt auszughaft einige Beispiele für datenintensive bzw. datenfokussierte Prozesse in der GND und beschreibt im gleichen Zuge Möglichkeiten zur Optimierung dieser Prozesse. 
+Die Gemeinsame Normdatei (GND) ist ein von den Bibliotheken im D-A-CH-Raum kooperativ gepflegtes Normdatenhub. In ihr wurden 2012 vier vorher bestehende, einzelne Normdateien zusammengeführt. Die folgende Zusammenstellung zeigt auszughaft einige Beispiele für datenintensive bzw. datenfokussierte Prozesse in der GND und beschreibt im gleichen Zuge Möglichkeiten zur Optimierung dieser Prozesse.
 
 # Datenintensive bzw. datenfokussierte Prozesse in der GND
 
@@ -28,11 +27,7 @@ Es müsste weiterhin festgestellt werden, welche Metadatenfelder von der Änderu
 
 3. Erschließung und Verknüpfung von Normdaten
 Die in Titeldaten genannten Personen wie beispielsweise Autoren oder Herausgeber sind häufig nicht mit Personennormdaten der GND, sogenannten Tp-Sätzen, verknüpft. Wie im Fall der Regelwerksänderung ist man auch hier darauf angewiesen, dass ein*e Katalogisierer*in den Datensatz im Rahmen anderer Arbeiten aufruft, die fehlende Verknüpfung erkennt und behebt.
-
-Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) können fehlende Verknüpfungen auch maschinell behoben werden und die intellektuelle Arbeit entlasten. Dazu wird derzeit an der DNB an einem Vorschlagsystem gearbeitet, das Normdatenverknüpfungen für Strings in vorab definierten Feldern (z.B. Personen-Felder) vornimmt bzw. vorschlägt.
-Dabei werden maschinell Vorschläge für Verknüpfungen von Personen in Titeldaten mit bestehenden Tp-Sätzen, aber auch für neu zu erzeugende Tp-Datensätze generiert. Im letzteren Fall werden derzeit sogenannte Vorschlagsdatensätze (TX-Sätze) erzeugt, die nach intellektueller Prüfung zu Tp-Sätzen werden.
-Grundlage für die Erzeugung von Vorschlagdatensätzen ist das Vorhandensein einer Standardnummer wie etwa eine ORCID-ID, aber auch die Auswertung von Culturegraph-Werkbündeln oder der Open Access-Enginge BASE.    
-
+Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) können fehlende Verknüpfungen auch maschinell behoben werden und die intellektuelle Arbeit entlasten. Dazu wird derzeit an der DNB an einem Vorschlagsystem gearbeitet, das Normdatenverknüpfungen für Strings in vorab definierten Feldern (z.B. Personen-Felder) vornimmt bzw. vorschlägt. Dabei werden maschinell Vorschläge für Verknüpfungen von Personen in Titeldaten mit bestehenden Tp-Sätzen, aber auch für neu zu erzeugende Tp-Datensätze generiert. Im letzteren Fall werden derzeit sogenannte Vorschlagsdatensätze (TX-Sätze) erzeugt, die nach intellektueller Prüfung zu Tp-Sätzen werden. Grundlage für die Erzeugung von Vorschlagdatensätzen ist das Vorhandensein einer Standardnummer wie etwa einer ORCID-ID, aber auch die Auswertung von Culturegraph-Werkbündeln oder der Open Access-Enginge BASE.
 
 ## Prozesse im Zusammenhang mit Datenimports
 
@@ -43,12 +38,13 @@ Grundlage für die Erzeugung von Vorschlagdatensätzen ist das Vorhandensein ein
 
 5. Regelkonformität sicherstellen
 
-6. Dubletten bereinigen: GND gegen sich selbst mappen
-
+6. Dubletten bereinigen 
+Mit der Bereinigung von Dubletten verhält es sich ähnlich wie mit der Erschließung von Medien, dem Anlegen und Verknüpfen von Normdaten. Dubletten werden in der Regel dann händisch bearbeitet, wenn sie in der Erschließungsarbeit als Dubletten auffallen (work in progress). In der GND können Dubletten insbesondere dann gehäuft entstehen, wenn ein größeres Datenset von extern eingespielt wurde. Aus diesem Grund wird derzeit die sogenannte "GND-Toolbox" entwickelt. Diese soll die Anbindung neuer Datenquellen aus nicht-bibliothearischen Anwendungskontexten durch Bereitstellung von Schnittstellen unterstützen. Darüber hinaus soll die GND-Toolbox aber auch als Werkzeug zur Qualitätskontrolle der GND zur Verfügung stehen. Sowohl beim Pre-Processing von externen Datenbeständen als auch bei der Qualitätskontrolle kommen Match & Merge-Verfahren zum Einsatz. Im ersten Fall wird das externe Datenset gegen den Bestand der GND abgeglichen, um "Import-Kandidaten" zu identifizieren oder aber auszuschließen. Im zweiten Fall wird die GND gewissermaßen "gegen sich selbst gematched", um mögliche Dubletten zu identifizieren.
+Ein regelmäßiges, automatisches Matching und Merging soll die Qualität und Konsistenz der GND-Datensätze künftig erhöhen und insofern auch die GND-Redakteur+innen entlasten, als die maschinell erkannten Dubletten unmittelbar als solche zur händischen Bearbeitung vorgeschlagen werden.
 
 ## Prozesse im Zusammenhang mit Anfragen an die GND (Anfragemanagement)
 
-7. Anfragemanagement in der GND-Zentrale als Anlaufstelle für externe Partner*innen
+7. Anfragemanagement in der GND-Zentrale als Anlaufstelle für externe Partner+innen
 
 
 
