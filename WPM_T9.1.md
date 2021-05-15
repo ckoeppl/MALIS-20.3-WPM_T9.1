@@ -9,12 +9,15 @@ Die vorliegende Arbeit zeigt auszughaft einige Beispiele für datenintensive bzw
 
 # Datenintensive bzw. datenfokussierte Prozesse in der GND
 
-Die Arbeit an der GND besteht aus vielen unterschiedlichen Facetten. Es wird in diesem Rahmen nicht möglich sein, auf alle Aspekte einzugehen, daher erfolgt hier eine (nicht repräsentative) Auswahl von Themenbereichen und von insgesamt acht mit ihnen verknüpften Prozessen.
+Die Arbeit an der GND besteht aus vielen unterschiedlichen Facetten. Es wird in diesem Rahmen nicht möglich sein, auf alle Aspekte einzugehen, daher erfolgt hier eine (nicht repräsentative) Auswahl von Themenbereichen und von insgesamt sieben mit ihnen verknüpften Prozessen.
 
 
 ## Prozesse im Zusammenhang mit der Erschließung
 
 1. Erschließung von Medien
+Die Erschließung von Medien ...
+
+Maschinelle Beschlagwortung, Parallelabgleich (Verknüpfung von Parallelausgaben print-ebook), Anreicherung von Titeldatensätzen mit Normdatenverknüpfung (siehe auch Prozess Nr. 3), Sprachencodes (durch Auslesen kurzer Texte), maschinelle Klassifikation, maschinelle Beschlagwortung (computerlingistische Verfahren auf Basis eines Wörterbuchs; Quelle: Metadaten, Volltext, Table of Contents, Abgleich mit GND-Vokabular + intellektuelle Stichprobenkontrolle durch Inhaltserschließung)
 
 2. Regelwerksänderungen
 Sämtliche Einträge in die GND werden nach dem gemeinsamen Regelwerk RDA angelegt. Hin und wieder kommt es dazu, dass Teile des Regelwerks überarbeitet werden und Katalogisierer*innen und GND-Redakteur*innen die entsprechenden Felder nach einer neuen Regel befüllen müssen.
@@ -25,7 +28,7 @@ Es wäre denkbar, die Aktualisierung der Datensätze auf das neue Regelwerk teil
 Es müsste weiterhin festgestellt werden, welche Metadatenfelder von der Änderung betroffen sind und in welchem Format diese befüllt sind, um dann entsprechend des neuen Regelwerks ein Zielformat festzulegen. 
 
 3. Erschließung und Verknüpfung von Normdaten
-Die in Titeldaten genannten Personen wie beispielsweise Autoren oder Herausgeber sind häufig nicht mit Personennormdaten der GND, sogenannte Tp-Sätze, verknüpft. Wie im Fall der Regelwerksänderung ist man auch hier darauf angewiesen, dass ein*e Katalogisierer*in den Datensatz im Rahmen anderer Arbeiten aufruft, die fehlende Verknüpfung erkennt und behebt.
+Die in Titeldaten genannten Personen wie beispielsweise Autoren oder Herausgeber sind häufig nicht mit Personennormdaten der GND, sogenannten Tp-Sätzen, verknüpft. Wie im Fall der Regelwerksänderung ist man auch hier darauf angewiesen, dass ein*e Katalogisierer*in den Datensatz im Rahmen anderer Arbeiten aufruft, die fehlende Verknüpfung erkennt und behebt.
 
 Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) können fehlende Verknüpfungen auch maschinell behoben werden und die intellektuelle Arbeit entlasten. Dazu wird derzeit an der DNB an einem Vorschlagsystem gearbeitet, das Normdatenverknüpfungen für Strings in vorab definierten Feldern (z.B. Personen-Felder) vornimmt bzw. vorschlägt.
 Dabei werden maschinell Vorschläge für Verknüpfungen von Personen in Titeldaten mit bestehenden Tp-Sätzen, aber auch für neu zu erzeugende Tp-Datensätze generiert. Im letzteren Fall werden derzeit sogenannte Vorschlagsdatensätze (TX-Sätze) erzeugt, die nach intellektueller Prüfung zu Tp-Sätzen werden.
@@ -43,12 +46,10 @@ Grundlage für die Erzeugung von Vorschlagdatensätzen ist das Vorhandensein ein
 
 6. Dubletten bereinigen: GND gegen sich selbst mappen
 
-7. Strings aus Titeldaten mit Normdaten verknüpfen
-
 
 ## Prozesse im Zusammenhang mit Anfragen an die GND (Anfragemanagement)
 
-8. Anfragemanagement in der GND-Zentrale als Anlaufstelle für externe Partner*innen
+7. Anfragemanagement in der GND-Zentrale als Anlaufstelle für externe Partner*innen
 
 
 
