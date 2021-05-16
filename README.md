@@ -4,7 +4,7 @@ README zur Bearbeitung der Aufgabe T9.1 im WPM T9, MALIS 20.3
 ## Aufgabenstellung
 
 1. Datenfokussierte bzw. datenintensive Prozesse aus dem Arbeitsalltag oder der Institution als solcher zusammentragen
-2. Ein oder mehrere Beispiele für Prozesse heranziehen, die mithilfe von Software vereinfacht, tranpsarenter oder nachhaltiger gestaltet werden können.
+2. Ein oder mehrere Beispiele für Prozesse erläutern, die mithilfe von Software vereinfacht, tranpsarenter oder nachhaltiger gestaltet werden können.
 
 ## Bearbeitung der Aufgabenstellung
 
