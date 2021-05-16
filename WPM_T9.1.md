@@ -31,6 +31,8 @@ Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) k
 
 ### 4.  Bulk-Import, Pre-Processing und Identifizieren von Entitäten (Entitätencodes)
 
+Soll ein externes Datenset in die GND eingespielt werden, müssen verschiedene Vorbereitungsschritte gegangen werden. Einer dieser Schritte besteht darin, die Datensätze des Quellbestands den Entitäten der GND zuzweisen... 
+https://wiki.dnb.de/display/GND/Importe+in+die+GND+und+Datenmanipulationen
 
 ## Prozesse im Zusammenhang mit der Qualitätssicherung / Sicherung der Metadatenqualität
 
