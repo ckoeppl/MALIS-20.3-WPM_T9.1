@@ -29,10 +29,9 @@ Im Fall von Personen, aber auch von Körperschaften (Tb) oder Geographika (Tg) k
 
 ## Prozesse im Zusammenhang mit Datenimporten
 
-### 4.  Bulk-Import, Pre-Processing und Identifizieren von Entitäten (Entitätencodes)
+### 4. Identifizieren von Entitäten (Entitätencodes) im Pre-Processing von Bulk-Imports
 
-Soll ein externes Datenset in die GND eingespielt werden, müssen verschiedene Vorbereitungsschritte gegangen werden. Einer dieser Schritte besteht darin, die Datensätze des Quellbestands den Entitäten der GND zuzweisen... 
-https://wiki.dnb.de/display/GND/Importe+in+die+GND+und+Datenmanipulationen
+Soll ein externes Datenset in die GND eingespielt werden, müssen verschiedene Vorbereitungsschritte gegangen werden. Einer dieser Schritte besteht darin, die Datensätze des Quellbestands den Entitäten der GND zuzweisen ([Link](https://wiki.dnb.de/display/GND/Importe+in+die+GND+und+Datenmanipulationen)). In der Regel unterscheidet sich die Erfassung des Datengebers von der Normdatenerfassung der GND, sodass die in der GND vergebenen "Entitätencodes" zur konkreteren Kennzeichnung von Entitäten oder Satzarten im zu importierenden, meist heterogenen Datenset naturgemäß fehlen. Der Prozess zur Vorbereitung der Daten für den Import (Pre-Processing) sollte bzw. könnte künftig einen Schritt umfassen, in dem auf Basis von zuvor definierten Buzzwords maschinell die Satzart und der Entitätencode für jeden Datensatz ermittelt und vorgeschlagen werden.
 
 ## Prozesse im Zusammenhang mit der Qualitätssicherung / Sicherung der Metadatenqualität
 
